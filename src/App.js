@@ -5,7 +5,7 @@ import {
   Route,
   NavLink
 } from "react-router-dom";
-import VerUsuarios from './componentes/VerUsuarios';
+import VerTareas from './componentes/VerTareas';
 import CargaTarea from './componentes/CargaTarea';
 import Query from './componentes/Query';
 
@@ -70,8 +70,8 @@ export default class App extends Component {
             Soy Alberto Ferro
           </Route>
           <Route path="/vertarea">
-            <VerUsuarios>
-            </VerUsuarios>
+            <VerTareas>
+            </VerTareas>
           </Route>
           <Route path="/cargatarea">
             <CargaTarea>
